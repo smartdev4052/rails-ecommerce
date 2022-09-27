@@ -1,0 +1,8 @@
+<div class="center">
+  <h1>Order Confirmation #<%= @checkout.slug %></h1>
+  
+  <%= @checkout.id %>
+  <% @products.each do |product| %>
+    <%= product.name %>
+  <% end %>
+</div>

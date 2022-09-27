@@ -1,0 +1,42 @@
+/* Footer */
+
+.footer {
+	text-align: center;
+	margin-top: 100px;
+	flex: 1;
+	background: #3E4348;
+	flex-shrink: 0;
+	padding: 20px;
+	color: #AAA;
+	display: flex;
+}
+
+.footer .column {
+	flex: 1;
+	padding: 5px 20px;
+	font-weight: 300;
+}
+
+.footer .column .col-header {
+	font-weight: 600;
+	display: block;
+	font-size: 14px;
+	margin: 25px 0;
+	text-transform: uppercase;
+}
+
+.footer .column a, .footer .column p {
+	display: block;
+	margin: 20px 5px;	
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.footer .column p {
+	line-height: 1.5em;
+}
+
+.footer .column img {
+	max-width: 200px;
+	width: 100%;
+}

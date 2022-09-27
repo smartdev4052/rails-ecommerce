@@ -1,0 +1,28 @@
+/* Home Page Category Images */
+.home-categories {
+  position: relative;
+  top: 50px;
+  margin-bottom: 200px;
+}
+
+/* Both Category Pages */
+.categories {
+  text-align: center;
+}
+
+.categories .grid .grid-item span {
+  opacity: 0.8;
+  background: transparent;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.categories .grid .grid-item {
+  transition: all 0.3s;
+}
+
+.categories .grid .grid-item:hover {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
